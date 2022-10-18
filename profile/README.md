@@ -8,8 +8,8 @@ Zatím je to WIP (work in progress).
 
 ## Aktuální projekty
 
-![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=spsehavirov&repo=stm32kit)
-![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=spsehavirov&repo=stm32kit-docs)
+- [STM32 ARMKit](//github.com/spsehavirov/stm32kit)
+- [STM32 ARMKit - dokumentace](//github.com/spsehavirov/stm32kit-docs)
 
 ### Rychlé odkazy
 
