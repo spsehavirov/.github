@@ -11,7 +11,7 @@ Zatím je to WIP (work in progress).
 ### :hammer: ARM Kit
 Projekt pro výuku základů programování MCU (registry) ve 3. ročníku.
 
-- [ARM kit](//github.com/spsehavirov/ARM)
+- [ARM kit](//github.com/spsehavirov/arm-kit)
 
 ### :computer: STM32 ARM Kit
 Rozšíření projektu `ARM` o `HAL` vrstvu, kde přímý přístup je abstrahován
