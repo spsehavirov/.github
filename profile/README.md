@@ -24,5 +24,6 @@ Rozšíření projektu `ARM` o `HAL` vrstvu, kde přímý přístup je abstrahov
 
 - [Stránky školy](//spsehavirov.cz)
 - [Facebook školy](//fb.com/SPSE.Havirov)
+- [Instagram školy](//instagram.com/spsehavirov))
 - [Rozvrh na EduPage](//spsehavirov.edupage.org/timetable/)
 - [ŠkolaOnline.cz](//skolaonline.cz)
