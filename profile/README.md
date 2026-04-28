@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="https://spsehavirov.cz/wp-content/uploads/2025/08/spse-building-crop-scaled-1-edited-1-1024x683.jpeg" alt="SPŠE Havířov" width="720">
+</p>
+
 # SPŠE Havířov na GitHubu
 
 Oficiální GitHub organizace SPŠE Havířov. Najdete zde výukové materiály, technické podklady, školní nástroje a ukázkové projekty z IT, elektrotechniky a automatizace.
+
+Na jednom místě tak vzniká rozcestník pro žáky, učitele i veřejnost, kteří chtějí vidět konkrétní výstupy ze školní výuky i praktických projektů.
 
 ## Co zde najdete
 
@@ -9,14 +15,16 @@ Oficiální GitHub organizace SPŠE Havířov. Najdete zde výukové materiály,
 - dokumentaci a schémata,
 - menší interní nástroje a školní utility.
 
-## Doporučené repozitáře
+## Stěžejní repozitáře
 
 ### Embedded a MCU
 
-- [arm-kit](https://github.com/spsehavirov/arm-kit) - základy programování MCU přes registry
-- [stm32kit](https://github.com/spsehavirov/stm32kit) - rozšíření ARM kitu o HAL vrstvu a periferie
-- [stm32kit-docs](https://github.com/spsehavirov/stm32kit-docs) - dokumentace ke školnímu STM32 kitu
-- [haw-mcu-schematics](https://github.com/spsehavirov/haw-mcu-schematics) - schémata a blokové náčrtky k mikroprocesorům
+- [arm-kit](https://github.com/spsehavirov/arm-kit) - stěžejní projekt pro výuku základů programování MCU přes registry, používaný zejména ve 3. ročníku
+- [stm32kit](https://github.com/spsehavirov/stm32kit) - navazující rozšíření `arm-kit` pro vyšší úroveň práce se STM32, kde je přímý přístup abstrahován přes `io_*()` a dostupné jsou knihovny pro periferie jako `LCD`, `KEYPAD` a další
+- [stm32kit-docs](https://github.com/spsehavirov/stm32kit-docs) - dokumentace ke školnímu STM32 kitu, vhodná jako opora do výuky i samostudia
+- [haw-mcu-schematics](https://github.com/spsehavirov/haw-mcu-schematics) - schémata a blokové náčrtky k mikroprocesorům, architekturám a souvisejícím tématům
+
+Právě kombinace `arm-kit` a `stm32kit` nejlépe ukazuje návaznost výuky mezi 3. a 4. ročníkem. Nejprve jde o pochopení registrů, periferií a práce s hardwarem bez velké abstrakce, později o vyšší vrstvu práce s mikrokontroléry, knihovnami a znovupoužitelným kódem.
 
 ### Matematika a studijní materiály
 
@@ -29,6 +37,16 @@ Oficiální GitHub organizace SPŠE Havířov. Najdete zde výukové materiály,
 - [skolaonline-suplovani](https://github.com/spsehavirov/skolaonline-suplovani) - parsování XML souborů pro suplování
 - [spse-kiosk](https://github.com/spsehavirov/spse-kiosk) - webový kiosk pro zobrazování informací na školních obrazovkách
 - [maturita-time-calculator](https://github.com/spsehavirov/maturita-time-calculator) - výpočet konce praktické maturity včetně PUP
+
+## Jak organizaci číst
+
+Ne všechny repozitáře mají stejný účel:
+
+- některé jsou přímo pro výuku a laboratorní práci,
+- některé slouží jako dokumentace, schémata nebo skripta,
+- některé řeší konkrétní provozní potřeby školy.
+
+Proto vedle menších jednorázových materiálů najdete i repozitáře, které mají dlouhodobější význam pro jednotlivé předměty a ročníky.
 
 ## Pro koho je organizace určena
 
@@ -46,7 +64,3 @@ Oficiální GitHub organizace SPŠE Havířov. Najdete zde výukové materiály,
 - [LinkedIn](https://www.linkedin.com/company/spsehavirov)
 - [EduPage rozvrh](https://spsehavirov.edupage.org/timetable/)
 - [Škola Online](https://www.skolaonline.cz)
-
-## Poznámka
-
-Ne všechny repozitáře mají stejný účel. Některé slouží jako výukové ukázky, jiné jako dlouhodobě udržované materiály nebo pomocné nástroje školy.
