@@ -4,9 +4,9 @@
 
 # SPŠE Havířov na GitHubu
 
-Oficiální GitHub organizace SPŠE Havířov. Najdete zde výukové materiály, technické podklady, školní nástroje a ukázkové projekty z IT, elektrotechniky a automatizace.
+Oficiální GitHub organizace SPŠE Havířov. Jsou zde výukové materiály, technické podklady, školní nástroje a ukázkové projekty z IT, elektrotechniky a automatizace.
 
-Na jednom místě tak vzniká rozcestník pro žáky, učitele i veřejnost, kteří chtějí vidět konkrétní výstupy ze školní výuky i praktických projektů.
+README slouží hlavně jako rozcestník k nejdůležitějším repozitářům.
 
 ## Co zde najdete
 
@@ -19,12 +19,12 @@ Na jednom místě tak vzniká rozcestník pro žáky, učitele i veřejnost, kte
 
 ### Embedded a MCU
 
-- [arm-kit](https://github.com/spsehavirov/arm-kit) - stěžejní projekt pro výuku základů programování MCU přes registry, používaný zejména ve 3. ročníku
-- [stm32kit](https://github.com/spsehavirov/stm32kit) - navazující rozšíření `arm-kit` pro vyšší úroveň práce se STM32, kde je přímý přístup abstrahován přes `io_*()` a dostupné jsou knihovny pro periferie jako `LCD`, `KEYPAD` a další
-- [stm32kit-docs](https://github.com/spsehavirov/stm32kit-docs) - dokumentace ke školnímu STM32 kitu, vhodná jako opora do výuky i samostudia
+- [arm-kit](https://github.com/spsehavirov/arm-kit) - projekt pro základy programování MCU přes registry, používaný hlavně ve 3. ročníku
+- [stm32kit](https://github.com/spsehavirov/stm32kit) - navazující rozšíření `arm-kit` pro práci se STM32 přes vrstvu `io_*()` a knihovny pro jednotlivé periferie
+- [stm32kit-docs](https://github.com/spsehavirov/stm32kit-docs) - dokumentace ke školnímu STM32 kitu
 - [haw-mcu-schematics](https://github.com/spsehavirov/haw-mcu-schematics) - schémata a blokové náčrtky k mikroprocesorům, architekturám a souvisejícím tématům
 
-Právě kombinace `arm-kit` a `stm32kit` nejlépe ukazuje návaznost výuky mezi 3. a 4. ročníkem. Nejprve jde o pochopení registrů, periferií a práce s hardwarem bez velké abstrakce, později o vyšší vrstvu práce s mikrokontroléry, knihovnami a znovupoužitelným kódem.
+`arm-kit` navazuje na práci s registry a periferiemi ve 3. ročníku, `stm32kit` pak slouží jako pokračování pro 4. ročník.
 
 ### Matematika a studijní materiály
 
@@ -46,13 +46,13 @@ Ne všechny repozitáře mají stejný účel:
 - některé slouží jako dokumentace, schémata nebo skripta,
 - některé řeší konkrétní provozní potřeby školy.
 
-Proto vedle menších jednorázových materiálů najdete i repozitáře, které mají dlouhodobější význam pro jednotlivé předměty a ročníky.
+Vedle menších jednorázových materiálů jsou tu i repozitáře, které se používají delší dobu v konkrétních předmětech nebo ročnících.
 
 ## Pro koho je organizace určena
 
-- pro žáky, kteří chtějí navázat na výuku a školní projekty,
-- pro učitele, kteří sdílí materiály a zadání,
-- pro uchazeče, absolventy a partnery školy, kteří chtějí vidět konkrétní výstupy.
+- pro žáky,
+- pro učitele,
+- pro uchazeče, absolventy a partnery školy.
 
 ## Rychlé odkazy
 
