@@ -1,29 +1,52 @@
-# :school: SPŠE Havířov - GITHUB rozcestník
+# SPŠE Havířov na GitHubu
 
-Vítejte na hlavním repozitáři SPŠE Havířov.
+Oficiální GitHub organizace SPŠE Havířov. Najdete zde výukové materiály, technické podklady, školní nástroje a ukázkové projekty z IT, elektrotechniky a automatizace.
 
-Postupně zde přibudou materiály pro výuku a inspiraci.
+## Co zde najdete
 
-Zatím je to WIP (work in progress).
+- materiály do výuky a skripta,
+- ukázkové projekty pro programování a embedded výuku,
+- dokumentaci a schémata,
+- menší interní nástroje a školní utility.
 
-## :construction: Aktuální projekty
+## Doporučené repozitáře
 
-### :hammer: ARM Kit
-Projekt pro výuku základů programování MCU (registry) ve 3. ročníku.
+### Embedded a MCU
 
-- [ARM kit](//github.com/spsehavirov/arm-kit)
+- [arm-kit](https://github.com/spsehavirov/arm-kit) - základy programování MCU přes registry
+- [stm32kit](https://github.com/spsehavirov/stm32kit) - rozšíření ARM kitu o HAL vrstvu a periferie
+- [stm32kit-docs](https://github.com/spsehavirov/stm32kit-docs) - dokumentace ke školnímu STM32 kitu
+- [haw-mcu-schematics](https://github.com/spsehavirov/haw-mcu-schematics) - schémata a blokové náčrtky k mikroprocesorům
 
-### :computer: STM32 ARM Kit
-Rozšíření projektu `ARM` o `HAL` vrstvu, kde přímý přístup je abstrahován
-(`io_*()`) a obsahuje knihovny pro jednotlivé periferie (`LCD`, `KEYPAD`, ...).
+### Matematika a studijní materiály
 
-- [STM32 ARMKit](//github.com/spsehavirov/stm32kit)
-- [Dokumentace](//github.com/spsehavirov/stm32kit-docs)
+- [mat-analyticka_geometrie](https://github.com/spsehavirov/mat-analyticka_geometrie) - skriptum pro žáky
+- [mat-matice_skriptum](https://github.com/spsehavirov/mat-matice_skriptum) - skriptum k maticím
+- [mat-komplexni_cisla](https://github.com/spsehavirov/mat-komplexni_cisla) - materiály ke komplexním číslům
 
-## :link: Rychlé odkazy
+### Školní nástroje a utility
 
-- [Stránky školy](//spsehavirov.cz)
-- [Facebook školy](//fb.com/SPSE.Havirov)
-- [Instagram školy](//instagram.com/spsehavirov)
-- [Rozvrh na EduPage](//spsehavirov.edupage.org/timetable/)
-- [ŠkolaOnline.cz](//skolaonline.cz)
+- [skolaonline-suplovani](https://github.com/spsehavirov/skolaonline-suplovani) - parsování XML souborů pro suplování
+- [spse-kiosk](https://github.com/spsehavirov/spse-kiosk) - webový kiosk pro zobrazování informací na školních obrazovkách
+- [maturita-time-calculator](https://github.com/spsehavirov/maturita-time-calculator) - výpočet konce praktické maturity včetně PUP
+
+## Pro koho je organizace určena
+
+- pro žáky, kteří chtějí navázat na výuku a školní projekty,
+- pro učitele, kteří sdílí materiály a zadání,
+- pro uchazeče, absolventy a partnery školy, kteří chtějí vidět konkrétní výstupy.
+
+## Rychlé odkazy
+
+- [Web školy](https://spsehavirov.cz)
+- [GitHub Pages](https://spsehavirov.github.io/)
+- [Facebook](https://www.facebook.com/SPSE.Havirov)
+- [Instagram](https://www.instagram.com/spsehavirov/)
+- [YouTube](https://www.youtube.com/@spsehavirov)
+- [LinkedIn](https://www.linkedin.com/company/spsehavirov)
+- [EduPage rozvrh](https://spsehavirov.edupage.org/timetable/)
+- [Škola Online](https://www.skolaonline.cz)
+
+## Poznámka
+
+Ne všechny repozitáře mají stejný účel. Některé slouží jako výukové ukázky, jiné jako dlouhodobě udržované materiály nebo pomocné nástroje školy.
